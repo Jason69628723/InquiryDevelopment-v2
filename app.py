@@ -39,7 +39,7 @@ maincat_map = {
     "Thermoforming Machines": "Thermoforming"
 }
 
-# 手動設定的國家對照
+# 手動設定的國家對照（已更新）
 manual_country_map = {
     'United Arab Emirates': 'Asia',
     'United Kingdom': 'Europe',
@@ -96,10 +96,35 @@ manual_country_map = {
     'UK': 'Europe',
     'USA': 'North America',
     'Venezuela': 'C/S America',
-    'Vietnam': 'S/E Asia'
+    'Vietnam': 'S/E Asia',
+    'Bahrain': 'Middle East',
+    'Belarus': 'Europe',
+    'Bhutan': 'Asia',
+    'Chile': 'Africa',
+    'Dominican Republic': 'C/S America',
+    'Fiji': 'Africa',
+    'Ghana': 'Africa',
+    'Indonesia': 'S/E Asia',
+    'Iran': 'Middle East',
+    'Israel': 'Middle East',
+    'Kazakhstan': 'Asia',
+    'Kenya': 'Africa',
+    'Kyrgyzstan': 'Asia',
+    'Lebanon': 'Middle East',
+    'Malaysia': 'S/E Asia',
+    'Mauritius': 'Africa',
+    'Myanmar': 'S/E Asia',
+    'Nigeria': 'Africa',
+    'Oman': 'Middle East',
+    'Philippines': 'S/E Asia',
+    'Romania': 'Europe',
+    'Saudi Arabia': 'Middle East',
+    'Singapore': 'S/E Asia',
+    'South Africa': 'Africa',
+    'Ukraine': 'Europe'
 }
 
-st.title("Inquiry Development 自動化小工具")
+st.title("PRM Inquiry Development 自動化小工具")
 
 # 上傳詢問函
 csv_file = st.file_uploader("請上傳詢問函CSV檔（必填）", type="csv")
